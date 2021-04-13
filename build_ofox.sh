@@ -23,13 +23,13 @@ Default_Settings() {
     export OF_USE_NEW_MAGISKBOOT="1"
     export TARGET_ARCH="arm64"
     export TW_DEFAULT_LANGUAGE="en"
-    export FOX_VERSION="R11.0"
+    export FOX_VERSION="R11.0_1"
     export FOX_R11="1"
     export USE_CCACHE="1"
     export OF_FLASHLIGHT_ENABLE="1"
     export OF_FL_PATH1="/tmp"
     export OF_SCREEN_H="2280"
-    export FOX_BUILD_TYPE="Unofficial"
+    export FOX_BUILD_TYPE="Stable"
     export FOX_ADVANCED_SECURITY="1"
     export OF_STATUS_INDENT_LEFT=48
     export OF_STATUS_INDENT_RIGHT=48
