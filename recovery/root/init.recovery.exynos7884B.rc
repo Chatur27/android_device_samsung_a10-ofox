@@ -1,0 +1,12 @@
+on fs
+    export ANDROID_ROOT /system_root
+
+on init
+    write /proc/sys/kernel/hung_task_timeout_secs 0
+    chmod 0755 /sys/devices/virtual/camera/flash/rear_torch_flash
+    chmod 0755 /sys/devices/virtual/camera/flash/rear_flash
+    mkdir /tmp
+    symlink /sys/devices/virtual/camera/flash/rear_torch_flash /tmp/brightness
+    symlink /max_brightness /tmp/max_brightness
+
+on boot
