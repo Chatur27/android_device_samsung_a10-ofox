@@ -28,7 +28,7 @@ Default_Settings() {
     export USE_CCACHE="1"
     export OF_FLASHLIGHT_ENABLE="1"
     export OF_FL_PATH1="/tmp"
-    export OF_SCREEN_H="2280"
+    export OF_SCREEN_H="2340"
     export FOX_BUILD_TYPE="Stable"
     export FOX_ADVANCED_SECURITY="1"
     export OF_STATUS_INDENT_LEFT=48
