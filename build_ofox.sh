@@ -16,7 +16,7 @@ Default_Settings() {
     export OF_DISABLE_MIUI_SPECIFIC_FEATURES="1"
     export OF_DONT_PATCH_ENCRYPTED_DEVICE="1"
     export OF_NO_SPLASH_CHANGE=1
-    export FOX_MAINTAINER="Chatur27"
+    export OF_MAINTAINER="Chatur27"
     export OF_NO_TREBLE_COMPATIBILITY_CHECK="1"
     export OF_OTA_RES_DECRYPT="1"
     export OF_USE_MAGISKBOOT_FOR_ALL_PATCHES="1"
